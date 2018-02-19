@@ -7,14 +7,14 @@
  * using the library to create a graphical
  * interface Swing.
  *
- * @author Yurevich Anton
- * @version 1.0
- * @since 16.02.2018
+ * @author  Yurevich Anton
+ * @version 1.1
+ * @since   16.02.2018
+ * @link
  */
 
 class Main{
     public static void main (String[] args) {
-        SimpleGUI GUI = new SimpleGUI();
-        GUI.runGUI();
+        new MyGUI().runGUI();
     }
 }
