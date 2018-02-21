@@ -52,7 +52,9 @@ public class MyGUI {
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     gameLogic.setUserNumber(textField.getText());
+                    gameLogic.incCounter();
                     printResultText();
+                    textField.setText("");
                 }
             }
 
@@ -177,20 +179,25 @@ public class MyGUI {
     class GuessListener implements ActionListener {
         public void actionPerformed (ActionEvent event) {
             gameLogic.setUserNumber(textField.getText());
+            gameLogic.incCounter();
             printResultText();
+            textField.setText("");
         }
     }
 
-    public void printResultText(){
+    /**
+     * This method prints result of comparing on frame
+     */
+    private void printResultText(){
         switch (gameLogic.compareOfNumbers()) {
             case NOT_STARTED: label.setText("Начните новую игру"); break;
             case NOT_ENTERED: label.setText("Число не введено"); break;
-            case MORE: label.setText("Ваше число больше загаданного"); break;
-            case LESS: label.setText("Ваше число меньше загаданного"); break;
+            case MORE: label.setText("Число "+gameLogic.getUserNumber()+" больше загаданного"); break;
+            case LESS: label.setText("Число "+gameLogic.getUserNumber()+" меньше загаданного"); break;
             case WIN: {
                 JOptionPane.showMessageDialog(null,
-                        "Вы угадали число!", "Победа!",
-                        JOptionPane.PLAIN_MESSAGE);
+                        "Вы угадали число "+ gameLogic.getComputerNumber()+"!\nКоличество попыток: "+ gameLogic.getCounter(),
+                        "Победа!", JOptionPane.PLAIN_MESSAGE);
                 gameLogic.setNegativeComputerNumber();
                 label.setText("Начните игру заново");
                 textField.setText("");
@@ -206,6 +213,7 @@ public class MyGUI {
     class RandomListener implements ActionListener{
         public void actionPerformed (ActionEvent event) {
             gameLogic.setRandomNumber();
+            gameLogic.setCounterToZero();
             label.setText("Новое число сгенерировано");
             textField.setText("");
         }

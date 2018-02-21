@@ -8,6 +8,7 @@ class GameLogic {
     private int userNumber;
     private int border;
     private int computerNumber = -1;
+    private int counter;
 
     /**
      * This method is used to initialize
@@ -42,7 +43,6 @@ class GameLogic {
 
     /**
      * This method set the game in state NON_STARTED.
-     * @return Nothing.
      */
     public void setNegativeComputerNumber() {computerNumber = -1;}
 
@@ -58,6 +58,22 @@ class GameLogic {
         else return CompareEnum.compareResult.WIN;
 
     }
+
+    /**
+     * This method sets counter on zero
+     */
+    public void setCounterToZero() {counter = 0;}
+
+    /**
+     * This method increments counter
+     */
+    public void incCounter() {counter++;}
+
+    /**
+     * This method returns count of try
+     * @return Count
+     */
+    public int getCounter() {return counter;}
 
     /**
      * This method return value of random number.
