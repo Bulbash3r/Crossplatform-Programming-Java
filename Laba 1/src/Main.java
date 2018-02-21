@@ -16,7 +16,7 @@
 class Main{
     /**
      * This is the main method which run the game
-     * @param args Unused.
+     * @param args 0 Border of randomizing.
      * @return Nothing.
      */
     public static void main (String[] args) {
