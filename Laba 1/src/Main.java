@@ -20,7 +20,7 @@ class Main{
      * @return Nothing.
      */
     public static void main (String[] args) {
-        final int border=10;
+        int border = Integer.parseInt(args[0]);
         new MyGUI().runGUI(border);
     }
 }

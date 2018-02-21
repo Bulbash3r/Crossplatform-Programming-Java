@@ -1,6 +1,7 @@
 import javax.swing.ImageIcon;
 import javax.swing.*;
 import java.awt.event.*;
+import java.awt.event.KeyListener;
 
 /**
  * This class realize graphical user interface (GUI) of labushka.
@@ -16,7 +17,7 @@ public class MyGUI {
     private GameLogic gameLogic;
 
     /**
-     * Method of initialize and running GUI.
+     * Method of initializing and running GUI.
      * @param border This is the border of randomize.
      */
     public void runGUI(int border){
@@ -35,20 +36,38 @@ public class MyGUI {
         frame = new JFrame("Guess the random");
         label = new JLabel("Начните игру");
         textField = new JTextField();
-        startButton = new JButton ("Начать игру");
+        startButton = new JButton ("Новая игра");
         guessButton = new JButton ("Угадать!");
         menuBar = new JMenuBar();
         gameLogic = new GameLogic(border);
 
         startButton.addActionListener(new RandomListener());
         guessButton.addActionListener(new GuessListener());
+        KeyListener keyListener = new KeyListener() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+            }
+
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+                    gameLogic.setUserNumber(textField.getText());
+                    printResultText();
+                }
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+            }
+        };
+        textField.addKeyListener(keyListener);
     }
 
     /**
-     * This method sets icon of app.
+     * This method sets an icon of the app.
      */
     void setIcon() {
-        ImageIcon icon = new ImageIcon("src/image/games-icon.png");
+        ImageIcon icon = new ImageIcon("src/image/icon.png");
         frame.setIconImage(icon.getImage());
     }
 
@@ -146,7 +165,7 @@ public class MyGUI {
                             "............. ..│　　|　|　| \n" +
                             "..........／￣|　　 |　|　| \n" +
                             "..........| (￣ヽ＿_ヽ_)__) \n" +
-                            "...........＼二つ\n", "Це кіт",
+                            "...........＼二つ\n", "Це кiт",
                     JOptionPane.PLAIN_MESSAGE);
         }
     }
@@ -158,20 +177,24 @@ public class MyGUI {
     class GuessListener implements ActionListener {
         public void actionPerformed (ActionEvent event) {
             gameLogic.setUserNumber(textField.getText());
-            switch (gameLogic.compareOfNumbers()) {
-                case NOT_STARTED: label.setText("Начните игру"); break;
-                case NOT_ENTERED: label.setText("Число не введено"); break;
-                case MORE: label.setText("Ваше число больше загаданного"); break;
-                case LESS: label.setText("Ваше число меньше загаданного"); break;
-                case WIN: {
-                    JOptionPane.showMessageDialog(null,
-                            "Вы угадали число!", "Победа!",
-                            JOptionPane.PLAIN_MESSAGE);
-                    gameLogic.setNegativeComputerNumber();
-                    label.setText("Начните игру заново");
-                    textField.setText("");
-                    break;
-                }
+            printResultText();
+        }
+    }
+
+    public void printResultText(){
+        switch (gameLogic.compareOfNumbers()) {
+            case NOT_STARTED: label.setText("Начните новую игру"); break;
+            case NOT_ENTERED: label.setText("Число не введено"); break;
+            case MORE: label.setText("Ваше число больше загаданного"); break;
+            case LESS: label.setText("Ваше число меньше загаданного"); break;
+            case WIN: {
+                JOptionPane.showMessageDialog(null,
+                        "Вы угадали число!", "Победа!",
+                        JOptionPane.PLAIN_MESSAGE);
+                gameLogic.setNegativeComputerNumber();
+                label.setText("Начните игру заново");
+                textField.setText("");
+                break;
             }
         }
     }

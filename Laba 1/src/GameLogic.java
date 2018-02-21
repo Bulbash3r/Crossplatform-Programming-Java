@@ -37,10 +37,7 @@ class GameLogic {
             userNumber=-2;
             return;
         }
-        else
-        for (int i=0; i<fieldString.length(); i++){
-            userNumber = userNumber*10 + fieldString.charAt(i) -'0';
-        }
+        else userNumber = Integer.parseInt (fieldString);
     }
 
     /**
