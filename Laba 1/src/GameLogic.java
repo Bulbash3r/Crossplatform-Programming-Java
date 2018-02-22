@@ -20,7 +20,7 @@ class GameLogic {
     }
 
     /**
-     * This is method of assignment number, which makes randomly.
+     * This method sets number, which makes randomly.
      */
     public void setRandomNumber() {
         computerNumber = random.nextInt(border)+1;
@@ -69,7 +69,7 @@ class GameLogic {
 
     /**
      * This method returns count of try
-     * @return Count
+     * @return Count of try
      */
     public int getCounter() {return counter;}
 

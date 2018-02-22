@@ -8,7 +8,7 @@
  * interface Swing, and logical component.
  *
  * @author  Yurevich Anton
- * @version 1.1
+ * @version 1.6
  * @since   16.02.2018
  */
 

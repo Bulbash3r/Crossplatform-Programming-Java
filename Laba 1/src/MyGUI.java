@@ -43,11 +43,7 @@ public class MyGUI {
         startButton.addActionListener(new RandomListener());
         guessButton.addActionListener(new GuessListener());
         KeyListener keyListener = new KeyListener() {
-            @Override
-            public void keyTyped(KeyEvent e) {
-            }
-
-            @Override
+            public void keyTyped(KeyEvent e) { }
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     gameLogic.setUserNumber(textField.getText());
@@ -56,10 +52,7 @@ public class MyGUI {
                     textField.setText("");
                 }
             }
-
-            @Override
-            public void keyReleased(KeyEvent e) {
-            }
+           public void keyReleased(KeyEvent e) { }
         };
         textField.addKeyListener(keyListener);
     }
@@ -70,6 +63,7 @@ public class MyGUI {
     private void setIcon() {
         ImageIcon icon = new ImageIcon("src/image/icon.png");
         frame.setIconImage(icon.getImage());
+
     }
 
     /**
@@ -149,9 +143,12 @@ public class MyGUI {
      */
     class AboutListener implements ActionListener {
         public void actionPerformed (ActionEvent event){
-            JOptionPane.showMessageDialog(null,
-                    "Автор: Юревич Антон, группа 650503\n20!8\n\nНаписал HelloWorld - напишу и первую лабу", "О программе",
-                    JOptionPane.PLAIN_MESSAGE);
+            JOptionPane.showMessageDialog(
+                    null,
+                    "Автор: Юревич Антон, группа 650503\n20!8\n\nНаписал HelloWorld - напишу и первую лабу",
+                    "О программе",
+                    JOptionPane.PLAIN_MESSAGE
+                    );
         }
     }
 
@@ -194,9 +191,13 @@ public class MyGUI {
             case MORE: label.setText("Число "+gameLogic.getUserNumber()+" больше загаданного"); break;
             case LESS: label.setText("Число "+gameLogic.getUserNumber()+" меньше загаданного"); break;
             case WIN: {
-                JOptionPane.showMessageDialog(null,
+                label.setText("Победа!");
+                JOptionPane.showMessageDialog(
+                        null,
                         "Вы угадали число "+ gameLogic.getComputerNumber()+"!\nКоличество попыток: "+
-                                gameLogic.getCounter(),"Победа!", JOptionPane.PLAIN_MESSAGE);
+                                gameLogic.getCounter(),
+                        "Победа!", JOptionPane.PLAIN_MESSAGE);
+
                 gameLogic.setNegativeComputerNumber();
                 label.setText("Начните игру заново");
                 textField.setText("");
