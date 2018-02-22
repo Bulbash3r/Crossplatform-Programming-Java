@@ -21,7 +21,6 @@ class GameLogic {
 
     /**
      * This is method of assignment number, which makes randomly.
-     * @return Nothing.
      */
     public void setRandomNumber() {
         computerNumber = random.nextInt(border)+1;
@@ -30,7 +29,6 @@ class GameLogic {
     /**
      * This is method of assignment number, which write user.
      * @param fieldString This is the number from TextField in string format.
-     * @return Nothing.
      */
     public void setUserNumber(String fieldString){
         userNumber=0;

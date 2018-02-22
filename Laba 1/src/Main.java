@@ -10,14 +10,12 @@
  * @author  Yurevich Anton
  * @version 1.1
  * @since   16.02.2018
- * @link    https://github.com/Bulbash3r/Java-Labs/tree/master/Laba%201
  */
 
 class Main{
     /**
      * This is the main method which run the game
-     * @param args 0 Border of randomizing.
-     * @return Nothing.
+     * @param args Border of randomizing.
      */
     public static void main (String[] args) {
         int border = Integer.parseInt(args[0]);

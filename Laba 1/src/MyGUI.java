@@ -13,7 +13,6 @@ public class MyGUI {
     private JLabel label;
     private JMenuBar menuBar;
     private JFrame frame;
-    private JMenu mainMenu;
     private GameLogic gameLogic;
 
     /**
@@ -32,7 +31,7 @@ public class MyGUI {
      * This method initialize main components of GUI.
      * @param border This is the border of randomize.
      */
-    void constructFrame(int border) {
+    private void constructFrame(int border) {
         frame = new JFrame("Guess the random");
         label = new JLabel("Начните игру");
         textField = new JTextField();
@@ -68,7 +67,7 @@ public class MyGUI {
     /**
      * This method sets an icon of the app.
      */
-    void setIcon() {
+    private void setIcon() {
         ImageIcon icon = new ImageIcon("src/image/icon.png");
         frame.setIconImage(icon.getImage());
     }
@@ -76,8 +75,8 @@ public class MyGUI {
     /**
      * This method makes menu.
      */
-    void makeMenu() {
-        mainMenu = new JMenu("Меню");
+    private void makeMenu() {
+        JMenu mainMenu = new JMenu("Меню");
 
         JMenuItem newGameItem = new JMenuItem("Новая игра");
         mainMenu.add(newGameItem);
@@ -104,7 +103,7 @@ public class MyGUI {
     /**
      * This method adds components on frame.
      */
-    void addComponentsToFrame() {
+    private void addComponentsToFrame() {
         JPanel panel = new JPanel();
         panel.setLayout(null);
 
@@ -126,7 +125,7 @@ public class MyGUI {
     /**
      * This method sets principal settings of frame.
      */
-    void finalSettingOfFrame() {
+    private void finalSettingOfFrame() {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300,165);
         frame.setLocation(800,400);
@@ -196,8 +195,8 @@ public class MyGUI {
             case LESS: label.setText("Число "+gameLogic.getUserNumber()+" меньше загаданного"); break;
             case WIN: {
                 JOptionPane.showMessageDialog(null,
-                        "Вы угадали число "+ gameLogic.getComputerNumber()+"!\nКоличество попыток: "+ gameLogic.getCounter(),
-                        "Победа!", JOptionPane.PLAIN_MESSAGE);
+                        "Вы угадали число "+ gameLogic.getComputerNumber()+"!\nКоличество попыток: "+
+                                gameLogic.getCounter(),"Победа!", JOptionPane.PLAIN_MESSAGE);
                 gameLogic.setNegativeComputerNumber();
                 label.setText("Начните игру заново");
                 textField.setText("");

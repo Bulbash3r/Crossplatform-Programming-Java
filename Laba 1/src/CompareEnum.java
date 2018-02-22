@@ -10,6 +10,10 @@ class CompareEnum {
      * WIN: user write right number, game is over.
      */
     enum compareResult {
-        NOT_ENTERED, NOT_STARTED, MORE, LESS, WIN
+        NOT_ENTERED,
+        NOT_STARTED,
+        MORE,
+        LESS,
+        WIN
     }
 }
