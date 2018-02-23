@@ -154,7 +154,8 @@ public class MyGUI {
 
     class CatListener implements ActionListener {
         public void actionPerformed (ActionEvent event){
-            JOptionPane.showMessageDialog(null,
+            JOptionPane.showMessageDialog(
+                    null,
                     "..........................／＞　　フ\n" +
                             ".........................| 　_　 _ l   \n" +
                             "......................／` ミ＿xノ\n" +
@@ -163,7 +164,8 @@ public class MyGUI {
                             "............. ..│　　|　|　| \n" +
                             "..........／￣|　　 |　|　| \n" +
                             "..........| (￣ヽ＿_ヽ_)__) \n" +
-                            "...........＼二つ\n", "Це кiт",
+                            "...........＼二つ\n",
+                    "Це кiт",
                     JOptionPane.PLAIN_MESSAGE);
         }
     }
