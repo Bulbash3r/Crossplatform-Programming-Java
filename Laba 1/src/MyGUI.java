@@ -101,22 +101,22 @@ public class MyGUI {
         JPanel panel = new JPanel();
         panel.setLayout(null);
 
-        JLabel labelbsuir = new JLabel();
+        /*JLabel labelbsuir = new JLabel();
         labelbsuir.setText("БГУИР - знания и стиль жизнь!");
 
         labelbsuir.setBounds(20,15, 200, 20);
-        panel.add(labelbsuir);
+        panel.add(labelbsuir);*/
 
-        textField.setBounds(20,30,150,20);
+        textField.setBounds(20,15,150,20);
         panel.add (textField);
 
-        label.setBounds(20,50, 200, 20);
+        label.setBounds(20,35, 200, 20);
         panel.add(label);
 
-        guessButton.setBounds (20, 75, 90,30);
+        guessButton.setBounds (20, 60, 90,30);
         panel.add(guessButton);
 
-        startButton.setBounds (120, 75, 150, 30);
+        startButton.setBounds (120, 60, 150, 30);
         panel.add(startButton);
 
         frame.getContentPane().add(panel);
