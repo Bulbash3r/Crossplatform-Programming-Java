@@ -45,7 +45,7 @@ public class MyGUI {
         final KeyListener keyListener = new KeyListener() {
             public void keyTyped(final KeyEvent e) { }
             public void keyPressed(final KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+                if (KeyEvent.VK_ENTER == e.getKeyCode()) {
                     gameLogic.setUserNumber(textField.getText());
                     gameLogic.incCounter();
                     printResultText();
@@ -196,8 +196,8 @@ public class MyGUI {
         switch (gameLogic.compareOfNumbers()) {
             case NOT_STARTED: label.setText("Начните новую игру"); break;
             case NOT_ENTERED: label.setText("Число не введено"); break;
-            case MORE: label.setText("Число "+gameLogic.getUserNumber()+" больше загаданного"); break;
-            case LESS: label.setText("Число "+gameLogic.getUserNumber()+" меньше загаданного"); break;
+            case MORE: label.setText("Число "+ gameLogic.getUserNumber()+" больше загаданного"); break;
+            case LESS: label.setText("Число "+ gameLogic.getUserNumber()+" меньше загаданного"); break;
             case WIN: {
                 label.setText("Победа!");
                 JOptionPane.showMessageDialog(

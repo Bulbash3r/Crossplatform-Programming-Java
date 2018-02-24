@@ -49,8 +49,8 @@ class GameLogic {
      * @return Result of compare.
      */
     public CompareEnum.compareResult compareOfNumbers(){
-        if (computerNumber == -1) return CompareEnum.compareResult.NOT_STARTED;
-        else if (userNumber == -2) return CompareEnum.compareResult.NOT_ENTERED;
+        if (-1 == computerNumber) return CompareEnum.compareResult.NOT_STARTED;
+        else if (-2 == userNumber) return CompareEnum.compareResult.NOT_ENTERED;
         else if (userNumber > computerNumber) return CompareEnum.compareResult.MORE;
         else if (userNumber < computerNumber) return CompareEnum.compareResult.LESS;
         else return CompareEnum.compareResult.WIN;
