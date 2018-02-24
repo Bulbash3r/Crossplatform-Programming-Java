@@ -19,8 +19,8 @@ public class MyGUI {
      * Method of initializing and running GUI.
      * @param border This is the border of randomize.
      */
-    public void runGUI(int border){
-        constructFrame (border);
+    public void runGUI(final int border){
+        constructFrame(border);
         setIcon();
         makeMenu();
         addComponentsToFrame();
@@ -31,7 +31,7 @@ public class MyGUI {
      * This method initialize main components of GUI.
      * @param border This is the border of randomize.
      */
-    private void constructFrame(int border) {
+    private void constructFrame(final int border) {
         frame = new JFrame("Guess the random");
         label = new JLabel("Начните игру");
         textField = new JTextField();
@@ -42,9 +42,9 @@ public class MyGUI {
 
         startButton.addActionListener(new RandomListener());
         guessButton.addActionListener(new GuessListener());
-        KeyListener keyListener = new KeyListener() {
-            public void keyTyped(KeyEvent e) { }
-            public void keyPressed(KeyEvent e) {
+        final KeyListener keyListener = new KeyListener() {
+            public void keyTyped(final KeyEvent e) { }
+            public void keyPressed(final KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     gameLogic.setUserNumber(textField.getText());
                     gameLogic.incCounter();
@@ -52,7 +52,7 @@ public class MyGUI {
                     textField.setText("");
                 }
             }
-           public void keyReleased(KeyEvent e) { }
+           public void keyReleased(final KeyEvent e) { }
         };
         textField.addKeyListener(keyListener);
     }

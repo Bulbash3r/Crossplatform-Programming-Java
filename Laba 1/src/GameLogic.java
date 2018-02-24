@@ -32,7 +32,7 @@ class GameLogic {
      */
     public void setUserNumber(String fieldString){
         userNumber=0;
-        if (fieldString.length()==0) {
+        if (fieldString.isEmpty()) {
             userNumber=-2;
             return;
         }
