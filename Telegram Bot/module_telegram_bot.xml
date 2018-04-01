@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_telegram_bot" default="compile.module.telegram_bot">
+  <dirname property="module.telegram_bot.basedir" file="${ant.file.module_telegram_bot}"/>
+  
+  <property name="module.jdk.home.telegram_bot" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.telegram_bot" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.telegram_bot" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.telegram_bot" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="telegram_bot.output.dir" value="${module.telegram_bot.basedir}/out/production/Telegram Bot"/>
+  <property name="telegram_bot.testoutput.dir" value="${module.telegram_bot.basedir}/out/test/Telegram Bot"/>
+  
+  <path id="telegram_bot.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="telegram_bot.module.production.classpath">
+    <path refid="${module.jdk.classpath.telegram_bot}"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-meta-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-abilities-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambotsextensions-3.6-jar-with-dependencies.jar"/>
+  </path>
+  
+  <path id="telegram_bot.runtime.production.module.classpath">
+    <pathelement location="${telegram_bot.output.dir}"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-meta-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-abilities-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambotsextensions-3.6-jar-with-dependencies.jar"/>
+  </path>
+  
+  <path id="telegram_bot.module.classpath">
+    <path refid="${module.jdk.classpath.telegram_bot}"/>
+    <pathelement location="${telegram_bot.output.dir}"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-meta-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-abilities-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambotsextensions-3.6-jar-with-dependencies.jar"/>
+  </path>
+  
+  <path id="telegram_bot.runtime.module.classpath">
+    <pathelement location="${telegram_bot.testoutput.dir}"/>
+    <pathelement location="${telegram_bot.output.dir}"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-meta-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambots-abilities-3.6-jar-with-dependencies.jar"/>
+    <pathelement location="${basedir}/../../../../Desktop/telegrambotsextensions-3.6-jar-with-dependencies.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.telegram_bot">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.telegram_bot">
+    <patternset refid="excluded.from.module.telegram_bot"/>
+  </patternset>
+  
+  <path id="telegram_bot.module.sourcepath">
+    <dirset dir="${module.telegram_bot.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.telegram_bot" depends="compile.module.telegram_bot.production,compile.module.telegram_bot.tests" description="Compile module Telegram Bot"/>
+  
+  <target name="compile.module.telegram_bot.production" depends="register.custom.compilers" description="Compile module Telegram Bot; production classes">
+    <mkdir dir="${telegram_bot.output.dir}"/>
+    <javac2 destdir="${telegram_bot.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.telegram_bot}/javac">
+      <compilerarg line="${compiler.args.telegram_bot}"/>
+      <bootclasspath refid="telegram_bot.module.bootclasspath"/>
+      <classpath refid="telegram_bot.module.production.classpath"/>
+      <src refid="telegram_bot.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.telegram_bot"/>
+    </javac2>
+    
+    <copy todir="${telegram_bot.output.dir}">
+      <fileset dir="${module.telegram_bot.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.telegram_bot.tests" depends="register.custom.compilers,compile.module.telegram_bot.production" description="compile module Telegram Bot; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.telegram_bot" description="cleanup module">
+    <delete dir="${telegram_bot.output.dir}"/>
+    <delete dir="${telegram_bot.testoutput.dir}"/>
+  </target>
+</project>

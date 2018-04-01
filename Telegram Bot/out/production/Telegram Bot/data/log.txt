@@ -1,0 +1,464 @@
+0 null: /start
+1 Bot: Хаюшки, Polina Semenchik!
+Тыкай /help чтобы начать
+2 null: /help
+3 Помощь выведена
+4 null: /memes
+5 Мем отправлен
+6 null: /memes
+7 Мем отправлен
+8 zlatka_z: /quote
+9 Bot: я так и не разобрался 
+забил (с) Евгений Степанцов
+0 Bulbash3r: /start
+1 Bot: Хаюшки, Antoś Jurevič!
+Тыкай /help чтобы начать
+2 Bulbash3r: /help
+3 Помощь выведена
+4 Bulbash3r: /random 1000
+5 Bot: Ваше случайное число - 240
+6 devvindan: аа?
+7 Ошибка ввода
+8 devvindan: /help
+9 Помощь выведена
+10 devvindan: /sticker
+11 Стикер отправлен
+12 devvindan: /sticker
+13 Стикер отправлен
+14 devvindan: /sticker
+15 Стикер отправлен
+16 devvindan: /sticker
+17 Стикер отправлен
+18 devvindan: /sticker
+19 Стикер отправлен
+20 devvindan: /sticker
+21 Стикер отправлен
+22 devvindan: /sticker
+23 Стикер отправлен
+24 devvindan: /sticker
+25 Стикер отправлен
+26 zlatka_z: /quote
+27 Bot: вообще js классная штука (с) Евгений Степанцов
+28 zlatka_z: Не
+29 zlatka_z: /quote
+30 Bot: звучит как угроза (с) Евгений Степанцов
+31 zlatka_z: Перестань повторяться
+32 zlatka_z: /quote
+33 Bot: ясненько, людей мы не уважаем (с) Евгений Степанцов
+34 zlatka_z: Ой, кто бы говорил
+35 zlatka_z: /quote
+36 Bot: го дискуссию (с) Евгений Степанцов
+37 zlatka_z: /quote
+38 Bot: ну если ты можешь посмотреть уроки видео и сразу кодить, то респект тебе
+я так не могу (с) Евгений Степанцов
+39 zlatka_z: /quote
+40 Bot: но в мыслях он мне постоянно ебало начищает (с) Евгений Степанцов
+41 zlatka_z: /quote
+42 Bot: (если кому смешно, это тру) (с) Евгений Степанцов
+43 zlatka_z: /quote
+44 Bot: привет, человек (с) Евгений Степанцов
+45 zlatka_z: А го
+46 Ошибка ввода
+0 zlatka_z: Зачем, и без них можно
+1 Ошибка ввода
+2 zlatka_z: Антось, ты всё ещё следишь за ним?
+3 null: /sticker
+4 Стикер отправлен
+5 null: /memes
+6 Мем отправлен
+7 nsine: /start
+8 Bot: Привет, Vlad Klimenkov!
+Тыкай /help чтобы начать
+9 nsine: /memes
+10 Мем отправлен
+11 nsine: /help
+12 Помощь выведена
+13 nsine: /help
+14 Помощь выведена
+15 nastazys: /start
+16 Bot: Дороу, Nastik null!
+Тыкай /help чтобы начать
+17 nastazys: /help
+18 Помощь выведена
+19 nastazys: /random
+20 nastazys: /quote
+21 Bot: Бывалый (с) Евгений Степанцов
+22 nastazys: /random
+23 nastazys: 5
+24 null: Долго
+25 nastazys: /flip
+26 Решка
+27 nastazys: /coin
+28 Орёл
+29 nastazys: /coin
+30 Орёл
+31 nastazys: /memes
+32 Мем отправлен
+33 nastazys: /sticker
+34 Стикер отправлен
+35 zlatka_z: Опять?
+36 Ошибка ввода
+37 zlatka_z: Всё время тебе всё не так
+0 zlatka_z: Или не всё время
+1 Ошибка ввода
+2 zlatka_z: Ааа, я не понимаю
+3 Bulbash3r: /memes
+4 Мем отправлен
+5 Bulbash3r: /memes
+6 Мем отправлен
+7 Bulbash3r: /sticker
+8 Стикер отправлен
+9 nastazys: /random 10
+10 Bot: Ваше случайное число - 2
+11 nsine: /random
+12 nsine: /memes
+13 Мем отправлен
+14 nsine: /random
+15 nsine: /memes
+16 Мем отправлен
+17 nsine: /memes
+18 Мем отправлен
+19 nsine: /memes
+20 Мем отправлен
+21 nsine: /memes
+22 Мем отправлен
+23 nsine: /memes
+24 Мем отправлен
+25 nsine: /memes
+26 Мем отправлен
+27 nsine: /memes
+28 Мем отправлен
+29 nsine: /memes
+30 Мем отправлен
+31 nsine: /memes
+32 Мем отправлен
+33 nsine: /memes
+34 Мем отправлен
+35 Bulbash3r: /help
+36 Помощь выведена
+37 nsine: /hello
+38 Bot: Хаюшки, Vlad!
+Тыкай /help чтобы начать
+39 nsine: /random 56
+40 Bot: Ваше случайное число - 10
+41 nsine: /sticker
+42 Стикер отправлен
+43 nsine: /sticker
+44 Стикер отправлен
+45 nsine: /sticker
+46 Стикер отправлен
+47 nsine: /quote
+48 Bot: вот коболь жопа (с) Евгений Степанцов
+49 nsine: /quote
+50 Bot: так что такое аилофт (с) Евгений Степанцов
+51 nsine: /quote
+52 Bot: Не знаю, ни одного по-настоящему хорошего человека (с) Евгений Степанцов
+53 nsine: /quote
+54 Bot: Бывалый (с) Евгений Степанцов
+55 nsine: /quote
+56 Bot: Хм, человек-клещ прыгал бы метров на 50-100 (с) Евгений Степанцов
+57 nsine: /quote
+58 Bot: короче, есть массив 2d (не тян), нужно взять колво строк (с) Евгений Степанцов
+59 nsine: /quote
+60 Bot: Не знаю, ни одного по-настоящему хорошего человека (с) Евгений Степанцов
+0 Bulbash3r: /start
+1 Bot: Привет, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: /help
+3 Помощь выведена
+4 Bulbash3r: /exit
+5 Ошибка ввода
+0 Bulbash3r: /hello
+0 Bulbash3r: /hello
+1 Bot: Привет, Antoś!
+Тыкай /help чтобы начать
+0 devvindan: null
+1 Bulbash3r: Дороу
+2 Ошибка ввода
+3 Bulbash3r: /help
+4 Помощь выведена
+5 Bulbash3r: /rando
+6 Bulbash3r: /random
+7 Bulbash3r: 10
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: /random
+3 Bulbash3r: 10
+4 Ошибка ввода
+0 Bulbash3r: /random
+1 Bulbash3r: 10
+2 Ошибка ввода
+0 Bulbash3r: /random
+1 Bulbash3r: 10
+0 Bulbash3r: /random
+1 Bulbash3r: 10
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: /sticker
+3 Стикер отправлен
+4 Bulbash3r: /sticker
+5 Стикер отправлен
+6 Bulbash3r: /memes
+7 Мем отправлен
+8 entablature: /start
+9 Bot: Дороу, Анастасия!
+Тыкай /help чтобы начать
+10 entablature: /help
+11 Помощь выведена
+12 entablature: /hello
+13 Bot: Привет, Анастасия!
+Тыкай /help чтобы начать
+14 entablature: /quote
+15 Bot: глупый вопрос (с) Евгений Степанцов
+16 entablature: /memes
+17 Мем отправлен
+18 entablature: /memes
+19 Мем отправлен
+20 entablature: /memes
+21 Мем отправлен
+22 entablature: /memes
+23 Мем отправлен
+24 entablature: /memes
+25 Мем отправлен
+26 entablature: /memes
+27 Мем отправлен
+28 entablature: /memes
+29 Мем отправлен
+30 entablature: /memes
+31 Мем отправлен
+32 entablature: /memes
+33 Мем отправлен
+34 entablature: /memes
+35 Мем отправлен
+36 entablature: /memes
+37 Мем отправлен
+38 entablature: /memes
+39 Мем отправлен
+40 entablature: /memes
+41 Мем отправлен
+0 Bulbash3r: /memes
+1 Мем отправлен
+2 Bulbash3r: /memes
+3 Мем отправлен
+4 Bulbash3r: /memes
+5 Мем отправлен
+0 Bulbash3r: /memes
+1 Мем отправлен
+2 entablature: /sticker
+3 Стикер отправлен
+4 entablature: /sticker
+5 Стикер отправлен
+6 entablature: ахах
+7 Ошибка ввода
+8 entablature: /sticker
+9 Стикер отправлен
+10 Kiruga: Слышь, ты там в онлайне?
+11 Kiruga: /memes
+12 Мем отправлен
+13 Kiruga: /memes
+14 Мем отправлен
+15 Kiruga: /memes
+16 Мем отправлен
+17 Kiruga: /memes
+18 Мем отправлен
+19 Kiruga: Я, б**, знаю
+0 Bulbash3r: /start
+1 Bot: Привет, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: /help
+3 Помощь выведена
+0 Bulbash3r: /start
+1 Bot: Хаюшки, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: /help
+3 Помощь выведена
+0 Bulbash3r: /start
+1 Bot: Хаюшки, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: /help
+3 Помощь выведена
+0 Bulbash3r: /start
+1 Bot: Привет, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: /help
+3 Помощь выведена
+0 Bulbash3r: /help
+1 Помощь выведена
+0 Bulbash3r: /start
+1 Bot: Привет, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: /help
+3 Помощь выведена
+4 null: /start
+5 Bot: Хаюшки, Valentin!
+Тыкай /help чтобы начать
+6 null: /help
+7 Помощь выведена
+8 null: /quote
+9 Bot: вмсис ведь не тупой читать вики? (с) Евгений Степанцов
+10 null: /quote
+11 Bot: а может мне попробовать версию старньше 16.04 (с) Евгений Степанцов
+12 null: /memes
+13 Мем отправлен
+14 null: /memes
+15 Мем отправлен
+16 null: /memes
+17 Мем отправлен
+18 null: Обновите бота, он после выборов про настю и навального шутит
+19 Ошибка ввода
+20 null: /Обновите бота, он после выборов про настю и навального шутит
+21 null: /Ха! Сломал!
+22 null: /memes
+23 Мем отправлен
+24 null: /Jiza
+25 null: /Зачем я говорю с ботами моих друзей, если я могу поговорить со своими друзьями?
+26 Ошибка ввода
+27 null: /memesmemesmemesmemesmemes
+28 null: /memes
+29 Мем отправлен
+30 null: /ГолосуйзаГрудинина
+31 null: /quote
+32 Bot: го дискуссию (с) Евгений Степанцов
+33 null: /Кто такой степанцов
+34 null: /memes
+35 Мем отправлен
+36 null: /memes
+37 Мем отправлен
+38 null: /memes
+39 Мем отправлен
+40 null: flip
+41 Ошибка ввода
+42 null: /flip
+43 Орёл
+44 null: Решка
+45 null: /flip
+46 Орёл
+47 null: Решка
+48 null: Мне похуй
+49 null: Мне тоже
+50 Ошибка ввода
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: /sticker
+3 Стикер отправлен
+4 Bulbash3r: /sticker
+5 Стикер отправлен
+6 Bulbash3r: /sticker
+7 Стикер отправлен
+8 Bulbash3r: /sticker
+9 Стикер отправлен
+10 Bulbash3r: /sticker
+11 Стикер отправлен
+12 Bulbash3r: /sticker
+13 Стикер отправлен
+14 Bulbash3r: /sticker
+15 Стикер отправлен
+16 Bulbash3r: /sticker
+17 Стикер отправлен
+18 Bulbash3r: /sticker
+19 Стикер отправлен
+0 Bulbash3r: /hello
+1 Bot: Привет, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: /help
+3 Помощь выведена
+4 Bulbash3r: /random
+5 Bot: 
+6 Bulbash3r: 100
+0 Bulbash3r: /random
+1 Bot: 
+2 Bulbash3r: 100
+0 Bulbash3r: /random
+1 Bot: 
+2 Bulbash3r: 100
+3 Bot: Ваше случайное число - 33
+4 Ошибка ввода
+0 Bulbash3r: /random
+1 Bot: 
+2 Bulbash3r: 300
+3 Bot: Ваше случайное число - 274
+0 Bot is ready
+0 Bot is ready
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: /sticker
+3 Стикер отправлен
+0 Bot is ready
+0 Bulbash3r: /help
+1 Помощь выведена
+0 Bot is ready
+0 Bulbash3r: /help
+1 Помощь выведена
+0 Bot is ready
+0 Bulbash3r: /start
+1 Bot: Хаюшки, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: Привет
+3 Ошибка ввода
+4 Bulbash3r: /help
+5 Помощь выведена
+0 Bot is ready
+0 Bulbash3r: /start
+1 Bot: Дороу, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: /help
+3 Помощь выведена
+4 Bulbash3r: /quote
+5 Bot: туса без расширенных жоп (с) Евгений Степанцов
+6 Bulbash3r: /quote
+7 Bot: что юзаете чтобы взбродрится? (с) Евгений Степанцов
+8 Bulbash3r: /random
+9 Bulbash3r: /memes
+10 Bulbash3r: /memes
+11 Bulbash3r: /quote
+12 Bulbash3r: /sticker
+0 Bot is ready
+0 Bulbash3r: /sticker
+1 Стикер отправлен
+2 Bulbash3r: /random
+3 Bulbash3r: 150
+4 Bot: Ваше случайное число - 21
+5 Bulbash3r: /random
+6 Bulbash3r: /memes
+7 Bulbash3r: /memes
+8 Bulbash3r: /memes
+9 Bulbash3r: 150
+10 Bot: Ваше случайное число - 6
+11 Bulbash3r: /random
+12 Bulbash3r: /help
+13 Bulbash3r: /help
+14 Bulbash3r: 5
+15 Bot: Ваше случайное число - 2
+16 Bulbash3r: /help
+17 Помощь выведена
+18 Bulbash3r: /flip
+19 Решка
+20 Bulbash3r: /flip
+21 Решка
+22 Bulbash3r: /flip
+23 Решка
+24 Bulbash3r: /flip
+25 Орёл
+26 Bulbash3r: /flip
+27 Решка
+28 Bulbash3r: /flip
+29 Решка
+30 Bulbash3r: /flip
+31 Орёл
+32 Bulbash3r: /flip
+33 Решка
+34 Bulbash3r: /flip
+35 Решка
+36 Bulbash3r: /memes
+37 Мем отправлен
+38 Bulbash3r: /sticker
+39 Стикер отправлен
+0 Bot is ready
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: /exit
+3 Ошибка ввода
+0 Bot is ready
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: /json
