@@ -1,7 +1,7 @@
 enum Taste {
-    SWEET,
-    SALTY,
-    SOUR,
-    BITTER,
-    TASTELESS;
+    SWEET, //Сладкий
+    SALTY, //Солёный
+    SOUR, //Кислый
+    BITTER, //Горький
+    TASTELESS; //Безвкусный
 }

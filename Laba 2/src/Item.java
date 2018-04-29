@@ -1,9 +1,30 @@
+/**
+ * Класс предмет
+ */
 class Item {
+    /** Название предмета*/
     private String name;
-    private int count;
 
-    void setName(String n) {name = n;}
-    void setCount(int c) {count = c;}
-    String getName() {return name;}
-    int getCount() {return count;}
+    /**
+     * Конструктор с параметрами
+     * @param ItemName - название предмета
+     */
+    Item(String ItemName) {
+        name = ItemName;
+    }
+
+    /**
+     * Сетер названия предмета
+     * @param n название предмета
+     */
+    void setName(String n) {
+        name = n;
+    }
+
+    /**
+     * @return название предмета
+     */
+    String getName() {
+        return name;
+    }
 }

@@ -1,15 +1,32 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * Класс Повар
+ */
 class Cook extends Human {
 
+    /**
+     * Конструктор по умолчанию
+     */
     Cook () {
         super();
     }
+
+    /**
+     * Конструктор с параметрами
+     * @param name имя
+     */
     Cook (String name) {
         super (name);
     }
-    void cook(ArrayList<Food> fl) {
+
+    /**
+     * Метод "готовки" Повара, добавляет новый объект типа "Еда" в общий список
+     * @param fl список еды
+     * @param ItemName название блюда
+     */
+    void cook(ArrayList<Food> fl, String ItemName) {
         Random rand = new Random();
         int r = rand.nextInt(4);
         Taste t = null;
@@ -20,8 +37,7 @@ class Cook extends Human {
             case 2: t = Taste.SALTY; break;
             case 3: t = Taste.BITTER; break;
         }
-        Food f = new Food(t);
+        Food f = new Food(t, ItemName);
         fl.add(fl.size(), f);
-        System.out.println ("Vsyo ok!");
     }
 }

@@ -1,13 +1,6 @@
-import org.jetbrains.annotations.NotNull;
-import org.json.JSONObject;
-import org.telegram.telegrambots.*;
-import org.telegram.telegrambots.api.methods.send.SendMessage;
-import org.telegram.telegrambots.api.methods.send.SendPhoto;
-import org.telegram.telegrambots.api.methods.send.SendSticker;
+import org.telegram.telegrambots.api.methods.send.*;
 import org.telegram.telegrambots.api.objects.*;
-import org.telegram.telegrambots.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.api.objects.replykeyboard.ReplyKeyboardMarkup;
-import org.telegram.telegrambots.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import org.telegram.telegrambots.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.api.objects.replykeyboard.buttons.KeyboardRow;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
@@ -25,6 +18,15 @@ public class BulbasherBot extends TelegramLongPollingBot {
     private static final String BOT_TOKEN = "522275875:AAFNsGlbSzvioBRT3e3uRIxrwj03H5YzcCk"; //Токен бота
     private static final String BOT_USERNAME = "Bulbash3r Bot"; //Имя бота
     private static final int ERROR_CONST = 3;
+    private static final String[] GLECEVICH = {
+            "CAADAgADKQADqnwFBFHVw6U4XOtzAg",
+            "CAADAgADKgADqnwFBCCoG6G-d06wAg",
+            "CAADAgADKwADqnwFBGCQbyMO0g9lAg",
+            "CAADAgADLAADqnwFBG-RYPDFl_JpAg",
+            "CAADAgADLQADqnwFBBk0Do3uAAHyEgI",
+            "CAADAgADLgADqnwFBLR8fvCUQ4_MAg",
+            "CAADAgADLwADqnwFBMfDZIg7kpAEAg"
+    };
     private static final String[] STICKER = {
             "CAADAgADAQADqCIbEo_tyLxW-GDrAg",
             "CAADAgADAgADqCIbEhZIzEOaArMbAg",
@@ -148,7 +150,7 @@ public class BulbasherBot extends TelegramLongPollingBot {
         }
         random = false;
         if (msg.getText().equals ("/random")) {
-            sendMsg (msg, "Введите область рандома");
+            sendMsg (msg, "Введите верхний предел рандома");
             random = true;
         }
         else if (msg.getText().equals("/quote")) {
@@ -156,18 +158,21 @@ public class BulbasherBot extends TelegramLongPollingBot {
             sendMsg (msg, result);
             addToLog("Bot: "+ result);
         }
+        else if (msg.getText().equals("/dev")) {
+            sendMsg (msg, "github.com");
+        }
         else if (msg.getText().equals("/memes")) {
             int i = new Random().nextInt(MEMES.length);
             sendImageFromUrl(MEMES[i], Long.toString(msg.getChatId()));
-            if (i==3) sendMsg (msg, "Этот мем сделала Настя, вьювер дискрешн из эдвайст");
-            addToLog ("Мем отправлен");
+            if (i == 3) sendMsg(msg, "Этот мем сделала Настя, вьювер дискрешн из эдвайст");
+            addToLog("Мем отправлен");
         }
-        /*else if (newtxt.equals("/test")) {
-            //тест
-        }*/
         else if (msg.getText().equals("/sticker")) {
             sendStickerFromURL(STICKER[new Random().nextInt(STICKER.length)],Long.toString(msg.getChatId()));
             addToLog("Стикер отправлен");
+        }
+        else if (msg.getText().equals("/stickerGlecevich")) {
+            sendStickerFromURL(GLECEVICH[new Random().nextInt(GLECEVICH.length)], Long.toString(msg.getChatId()));
         }
         else if (msg.getText().equals("/hello")||msg.getText().equals("/start")) {
             result = generateHello()+", "+msg.getFrom().getFirstName()+"!\nТыкай /help чтобы начать";
@@ -182,8 +187,14 @@ public class BulbasherBot extends TelegramLongPollingBot {
                     "/quote - выводит цитату Степанцова\n" +
                     "/flip или /coin - бросить монетку\n" +
                     "/memes - присылает мем\n" +
-                    "/sticker - отправляет стикер");
+                    "/sticker - отправляет стикер\n" +
+                    "/stickerGlecevich - отправляет стикер с Глецом\n" +
+                    "/music - отправляет песню");
             addToLog("Помощь выведена");
+        }
+        else if (msg.getText().equals("/music")) {
+            sendMsg(msg, "100 шагов в ЕРАТ");
+            sendVoiceFromURL(Long.toString(msg.getChatId()));
         }
         else if (msg.getText().equals ("/flip") || msg.getText().equals("/coin")) {
             sendMsg(msg, "Бросаем монетку...");
@@ -207,6 +218,7 @@ public class BulbasherBot extends TelegramLongPollingBot {
     public String getBotToken() {
         return BOT_TOKEN; //токен бота
     }
+
 
     @SuppressWarnings("deprecation")
     private void sendMsg (Message msg, String text) {
@@ -248,7 +260,6 @@ public class BulbasherBot extends TelegramLongPollingBot {
      * @param str строка, из которой выбирается подстрока с числом-областью рандома
      * @return строка, являющаяся случайным числом
      */
-    @NotNull
     private String getRand(String str) {
         return Integer.toString(new Random().nextInt(Integer.parseInt(str)));
     }
@@ -282,6 +293,28 @@ public class BulbasherBot extends TelegramLongPollingBot {
         }
     }
 
+    private void sendMusicFromURL(String chatId) {
+        SendAudio sendAudioRequest = new SendAudio();
+        sendAudioRequest.setChatId(chatId);
+        sendAudioRequest.setAudio("https://psv4.vkuseraudio.net/c815620/u70306077/audios/e1f9edd884a8.mp3?extra=nY8SV_zRr3K5Q_JzaNo3hATKaRtnCbuKOkjTbObuYeLX6HWFLXFtZdWeXser7br9Rj1wQqQN6tuHFYVNxqOywe4SSkPemewU0ArWfVu-PftqaCOYpSC8oDTkWePmK-AzGapiJFVwAXw");
+        try {
+            sendAudio(sendAudioRequest);
+        } catch (TelegramApiException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void sendVoiceFromURL(String chatId) {
+        SendVoice sendVoiceRequest = new SendVoice();
+        sendVoiceRequest.setChatId(chatId);
+        sendVoiceRequest.setVoice("https://psv4.vkuseraudio.net/c613616/u44809339/audios/cb83576dd380.mp3?extra=k-vN4cRas5XTPfjl-urxgPo09vRbnSXIcMoTUc73d98U_k-vpd7hLRnyCp3YuYYSQvpkqCaLaxyTL9fzc1Civ_2GRuiKjIGLKqK7Pnb9mQzBK4iAhK-ZdRL85eNVFuhk1k6hTKXlIm1X");
+        try {
+            sendVoice(sendVoiceRequest);
+        } catch (TelegramApiException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 
     void addToLog(String txt) {
@@ -294,15 +327,6 @@ public class BulbasherBot extends TelegramLongPollingBot {
         } catch (IOException ex) {
             addToLog(ex.getMessage());
         }
-    }
-    private void setInline() {
-        List<List<InlineKeyboardButton>> buttons = new ArrayList<>();
-        List<InlineKeyboardButton> buttons1 = new ArrayList<>();
-        buttons1.add(new InlineKeyboardButton().setText("Помощь").setCallbackData("/help"));
-        buttons.add(buttons1);
-
-        InlineKeyboardMarkup markupKeyboard = new InlineKeyboardMarkup();
-        markupKeyboard.setKeyboard(buttons);
     }
 
     private synchronized void setButtons(SendMessage sendMessage) {
@@ -331,9 +355,13 @@ public class BulbasherBot extends TelegramLongPollingBot {
         keyboardSecondRow.add(new KeyboardButton("/memes"));
         keyboardSecondRow.add(new KeyboardButton("/sticker"));
 
+        KeyboardRow keyboardThirdRow = new KeyboardRow();
+        keyboardThirdRow.add(new KeyboardButton("/music"));
+        keyboardThirdRow.add(new KeyboardButton("/stickerGlecevich"));
         // Добавляем все строчки клавиатуры в список
         keyboard.add(keyboardFirstRow);
         keyboard.add(keyboardSecondRow);
+        keyboard.add(keyboardThirdRow);
         // и устанваливаем этот список нашей клавиатуре
         replyKeyboardMarkup.setKeyboard(keyboard);
     }

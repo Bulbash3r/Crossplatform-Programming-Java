@@ -3,10 +3,6 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Telegram_Bot_jar</output-path>
     <root id="archive" name="Telegram Bot.jar">
       <element id="module-output" name="Telegram Bot" />
-      <element id="extracted-dir" path="$USER_HOME$/Desktop/telegrambots-abilities-3.6-jar-with-dependencies.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/Desktop/telegrambots-3.6-jar-with-dependencies.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/Desktop/telegrambotsextensions-3.6-jar-with-dependencies.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/Desktop/telegrambots-meta-3.6-jar-with-dependencies.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

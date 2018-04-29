@@ -462,3 +462,670 @@
 0 Bulbash3r: /help
 1 Помощь выведена
 2 Bulbash3r: /json
+0 Bot is ready
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: //flip
+3 Ошибка ввода
+4 Bulbash3r: /help
+5 Помощь выведена
+6 Bulbash3r: /help
+7 Помощь выведена
+8 Bulbash3r: /help
+9 Помощь выведена
+0 Bot is ready
+0 Bot is ready
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: /help
+3 Помощь выведена
+4 Bulbash3r: /music
+0 Bot is ready
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: /random
+3 Bulbash3r: 700
+4 Bot: Ваше случайное число - 26
+5 Bulbash3r: /music
+6 Kiruga: /help
+7 Помощь выведена
+8 entablature: /sticker
+9 Стикер отправлен
+10 entablature: /memes
+11 Мем отправлен
+12 Kiruga: /music
+13 entablature: /help
+0 Bot is ready
+0 entablature: /help
+1 Помощь выведена
+2 Bulbash3r: /help
+3 Помощь выведена
+4 Kiruga: Я угадаю, если скажу, что там есть ещё Моя оборона и Самбади Ванс Толд Ми?
+5 Ошибка ввода
+6 Bulbash3r: /music
+0 Bot is ready
+0 entablature: /random
+1 Kiruga: /music
+2 entablature: /quote
+3 Kiruga: /music
+4 Kiruga: /music
+5 Kiruga: /music
+6 Kiruga: /music
+7 Kiruga: /music
+8 Kiruga: /music
+9 Kiruga: /music
+10 Kiruga: /music
+11 Kiruga: /music
+12 Kiruga: /music
+13 Kiruga: /music
+14 Kiruga: /music
+15 Kiruga: /music
+16 Kiruga: /music
+17 Bulbash3r: /random
+18 Bulbash3r: /quote
+19 Bulbash3r: /music
+20 Bulbash3r: /music
+0 Bot is ready
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: /music
+0 Bot is ready
+0 Bot is ready
+0 Bot is ready
+0 Bulbash3r: /help
+1 Помощь выведена
+2 Bulbash3r: /help
+3 Помощь выведена
+4 Bulbash3r: /random
+5 Bulbash3r: 6
+6 Bot: Ваше случайное число - 3
+7 Bulbash3r: /quote
+8 Bot: так что такое аилофт (с) Евгений Степанцов
+9 Bulbash3r: /quote
+10 Bot: В каждом есть дерьмо. Его ещё принято называть личностью или персональностью (с) Евгений Степанцов
+11 Bulbash3r: /quote
+12 Bot: глупый вопрос (с) Евгений Степанцов
+13 Bulbash3r: /quote
+14 Bot: хотел порешать ctf и пописать метру -> смотрю 7-ую серию подряд) (с) Евгений Степанцов
+15 Bulbash3r: /quote
+16 Bot: привет, человек (с) Евгений Степанцов
+17 Bulbash3r: /quote
+18 Bot: Сергей Шемпелевич (с) Евгений Степанцов
+19 Bulbash3r: /quote
+20 Bot: Сергей Шемпелевич (с) Евгений Степанцов
+21 Bulbash3r: /quote
+22 Bot: жизнь воообще боль (с) Евгений Степанцов
+23 Bulbash3r: /quote
+24 Bot: огурчик, попрошу (с) Евгений Степанцов
+25 Bulbash3r: /quote
+26 Bot: существует мнение, что возможно в X-боксах присутствуют слабости (с) Евгений Степанцов
+27 Bulbash3r: /flip
+28 Орёл
+29 Bulbash3r: /flip
+30 Орёл
+31 Bulbash3r: /flip
+32 Решка
+33 Bulbash3r: /flip
+34 Орёл
+35 Bulbash3r: /flip
+36 Орёл
+37 Bulbash3r: /memes
+38 Мем отправлен
+39 Bulbash3r: /memes
+40 Мем отправлен
+41 Bulbash3r: /memes
+42 Мем отправлен
+43 Bulbash3r: /music
+44 Bulbash3r: /music
+45 Bulbash3r: /sticker
+46 Стикер отправлен
+47 Bulbash3r: /sticker
+48 Стикер отправлен
+49 Bulbash3r: /sticker
+50 Стикер отправлен
+51 Bulbash3r: /sticker
+52 Стикер отправлен
+53 Bulbash3r: /sticker
+54 Стикер отправлен
+55 Bulbash3r: /sticker
+56 Стикер отправлен
+57 Bulbash3r: /sticker
+58 Стикер отправлен
+59 Bulbash3r: /sticker
+60 Стикер отправлен
+61 Bulbash3r: /sticker
+62 Стикер отправлен
+63 Bulbash3r: /sticker
+64 Стикер отправлен
+65 Bulbash3r: /sticker
+66 Стикер отправлен
+67 Bulbash3r: /sticker
+68 Стикер отправлен
+69 Bulbash3r: /sticker
+70 Стикер отправлен
+71 Bulbash3r: /sticker
+72 Стикер отправлен
+73 Bulbash3r: /sticker
+74 Стикер отправлен
+75 Bulbash3r: /sticker
+76 Стикер отправлен
+77 Bulbash3r: /sticker
+78 Стикер отправлен
+79 Bulbash3r: /sticker
+80 Стикер отправлен
+81 Bulbash3r: /sticker
+82 Стикер отправлен
+83 Bulbash3r: /sticker
+84 Стикер отправлен
+85 Bulbash3r: /sticker
+86 Стикер отправлен
+87 Bulbash3r: /sticker
+88 Стикер отправлен
+89 Bulbash3r: /sticker
+90 Стикер отправлен
+91 Bulbash3r: /sticker
+92 Стикер отправлен
+93 Bulbash3r: /sticker
+94 Стикер отправлен
+95 Bulbash3r: /sticker
+96 Стикер отправлен
+97 Bulbash3r: /sticker
+98 Стикер отправлен
+99 Bulbash3r: /sticker
+100 Стикер отправлен
+101 Bulbash3r: /sticker
+102 Стикер отправлен
+103 Bulbash3r: /sticker
+104 Стикер отправлен
+105 Bulbash3r: /sticker
+106 Стикер отправлен
+107 Bulbash3r: /sticker
+108 Стикер отправлен
+109 Bulbash3r: /sticker
+110 Стикер отправлен
+111 Bulbash3r: /sticker
+112 Стикер отправлен
+113 Bulbash3r: /sticker
+114 Стикер отправлен
+115 Bulbash3r: null
+116 Bulbash3r: null
+117 Bulbash3r: null
+118 Bulbash3r: /start
+119 Bot: Дороу, Antoś!
+Тыкай /help чтобы начать
+0 Bot is ready
+0 Kiruga: /music
+1 Kiruga: /sticker
+2 Стикер отправлен
+3 Kiruga: /memes
+4 Мем отправлен
+5 Kiruga: /help
+6 Помощь выведена
+7 Kiruga: /quote
+8 Bot: ну если ты можешь посмотреть уроки видео и сразу кодить, то респект тебе
+я так не могу (с) Евгений Степанцов
+9 Kiruga: /quote
+10 Bot: программируй на своем питоне (с) Евгений Степанцов
+11 Kiruga: /sticker
+12 Стикер отправлен
+13 Kiruga: /memes
+14 Мем отправлен
+15 null: Хелп
+16 Ошибка ввода
+17 null: Что пошло не так
+18 Kiruga: /random
+19 Kiruga: /help
+20 Kiruga: /flip
+21 Kiruga: /music
+22 Kiruga: /flip
+23 Kiruga: /memes
+24 null: /memes
+25 Kiruga: /music
+26 Kiruga: /flip
+27 Kiruga: /memes
+28 Kiruga: /help
+29 Kiruga: /sticker
+30 Kiruga: /sticker
+31 Kiruga: /sticker
+32 Kiruga: /sticker
+33 Kiruga: /quote
+34 Kiruga: /help
+35 Kiruga: /flip
+36 Kiruga: /music
+37 Kiruga: /music
+38 Kiruga: /music
+39 Kiruga: /music
+40 Kiruga: /music
+41 Kiruga: /quote
+42 Kiruga: /quote
+43 Kiruga: /random
+44 Kiruga: /help
+45 Kiruga: /music
+46 Kiruga: /music
+47 Kiruga: /music
+48 Kiruga: /flip
+49 Kiruga: /help
+50 Kiruga: /music
+51 Kiruga: /music
+52 Kiruga: /music
+53 Kiruga: /flip
+54 Kiruga: /flip
+55 Kiruga: /sticker
+56 Kiruga: /memes
+57 Kiruga: /memes
+58 Kiruga: /music
+59 Kiruga: /flip
+60 Kiruga: /sticker
+61 null: .memes
+62 null: /memes
+0 Bot is ready
+0 null: /memes
+1 Мем отправлен
+2 null: /memes
+3 Мем отправлен
+4 null: /memes
+5 Мем отправлен
+6 null: /memes
+7 Мем отправлен
+8 Bulbash3r: /help
+9 Помощь выведена
+10 null: /music
+11 null: /music
+12 null: /music
+13 null: /music
+14 Bulbash3r: /flip
+15 Решка
+16 Bulbash3r: /flip
+17 Решка
+18 Bulbash3r: /coin
+19 Решка
+20 Bulbash3r: /coin
+21 Решка
+22 Bulbash3r: /coin
+23 Решка
+24 Bulbash3r: /ccoin
+25 Ошибка ввода
+26 Bulbash3r: /coin
+27 Решка
+28 Bulbash3r: /flip
+29 Решка
+30 Bulbash3r: /flip
+31 Орёл
+32 Bulbash3r: /fflip
+33 Bulbash3r: /flip
+34 Орёл
+35 Bulbash3r: /fflip
+36 Bulbash3r: /fflip
+37 Bulbash3r: /flip
+38 Орёл
+39 Bulbash3r: /flip
+40 Орёл
+41 Bulbash3r: /sticker
+42 Стикер отправлен
+43 Bulbash3r: /sticker
+44 Стикер отправлен
+45 Bulbash3r: /quote
+46 Bot: Звёзд в void должно быть столько же скока их во вселенной (с) Евгений Степанцов
+47 Bulbash3r: /quote
+48 Bot: смешной такой (с) Евгений Степанцов
+49 Bulbash3r: /quote
+50 Bot: я Злата брат (с) Евгений Степанцов
+51 Bulbash3r: /quote
+52 Bot: вмсис ведь не тупой читать вики? (с) Евгений Степанцов
+53 null: /sticker
+54 Стикер отправлен
+55 null: /sticker
+56 Стикер отправлен
+57 Bulbash3r: /sticker
+58 Стикер отправлен
+59 Bulbash3r: /sticker
+60 Стикер отправлен
+0 Bot is ready
+0 Bulbash3r: /dev
+1 Bulbash3r: /dev
+2 Bulbash3r: /dev
+3 Bulbash3r: /dev
+4 Bulbash3r: /dev
+5 Bulbash3r: /pidot
+6 Ошибка ввода
+7 Bulbash3r: /pidor
+8 Bulbash3r: /pidor
+0 Bot is ready
+0 Bulbash3r: //pidor
+1 Ошибка ввода
+2 Bulbash3r: /pidor
+3 Bulbash3r: /pddior
+4 Bulbash3r: /pidor
+5 Bulbash3r: /random
+6 Bulbash3r: 110
+7 Bot: Ваше случайное число - 15
+8 null: /sticker
+9 Стикер отправлен
+10 null: /sticker
+11 Стикер отправлен
+0 Bot is ready
+0 null: /pidor
+0 Bot is ready
+0 Bulbash3r: /pidor
+0 Bot is ready
+0 Bulbash3r: /pidor
+0 Bot is ready
+0 Bulbash3r: /pidor
+1 Bulbash3r: /help
+2 Помощь выведена
+3 Bulbash3r: /dev
+4 Bulbash3r: /pidor
+5 Bulbash3r: /piddor
+6 Ошибка ввода
+7 Bulbash3r: /pidor
+8 Bulbash3r: /memes
+9 Мем отправлен
+10 Bulbash3r: /memes
+11 Мем отправлен
+12 Bulbash3r: /memems
+13 Bulbash3r: /memes
+14 Мем отправлен
+15 Bulbash3r: /memes
+16 Мем отправлен
+17 Bulbash3r: /sticker
+18 Стикер отправлен
+19 Bulbash3r: /sticker
+20 Стикер отправлен
+21 Bulbash3r: /sticker
+22 Стикер отправлен
+23 Bulbash3r: /sticker
+24 Стикер отправлен
+0 Bot is ready
+0 Bulbash3r: /pidor
+0 Bot is ready
+0 null: /pidor
+1 null: /help
+2 Помощь выведена
+3 null: /quote
+4 Bot: книги бесполезная трата времени (с) Евгений Степанцов
+5 null: /quote
+6 Bot: программируй на своем питоне (с) Евгений Степанцов
+7 null: /quote
+8 Bot: книги бесполезная трата времени (с) Евгений Степанцов
+9 null: /random
+10 null: /memes
+11 null: /sticker
+12 null: /flip
+13 null: /random
+14 null: /help
+15 null: /flip
+16 null: /sticker
+17 null: /quote
+18 null: /help
+19 null: /help
+20 null: /flip
+21 null: /flip
+22 null: /flip
+23 null: /help
+24 null: /help
+25 null: /help
+26 null: /music
+27 null: /sticker
+28 null: /quote
+29 null: /help
+30 null: /help
+31 null: /flip
+32 null: /flip
+33 null: /flip
+34 null: /flip
+35 null: /help
+36 null: /flip
+37 null: /random
+38 null: /flip
+0 Bot is ready
+0 null: /sticker
+1 Стикер отправлен
+2 null: /flip
+3 Решка
+4 null: /music
+5 null: /help
+6 Помощь выведена
+7 null: /flip
+8 Орёл
+9 null: /sticker
+10 Стикер отправлен
+11 null: /memes
+12 Мем отправлен
+13 null: /flip
+14 Орёл
+15 null: /sticker
+16 Стикер отправлен
+17 null: /help
+18 Помощь выведена
+19 null: /music
+20 null: /music
+21 null: /music
+22 null: /quote
+23 Bot: привет, человек (с) Евгений Степанцов
+24 null: /flip
+25 Орёл
+26 null: /memes
+27 Мем отправлен
+28 null: /flip
+29 Решка
+30 null: /sticker
+31 Стикер отправлен
+32 null: /help
+33 Помощь выведена
+34 null: /quote
+35 Bot: Интересно ты свои комплексы скрываешь, Юрэвич (с) Евгений Степанцов
+36 null: /flip
+37 Решка
+38 null: /music
+39 null: /help
+40 Помощь выведена
+41 null: /quote
+42 Bot: Я че еблан? (с) Евгений Степанцов
+43 null: /music
+44 null: /help
+45 Помощь выведена
+46 null: /random
+47 null: /flip
+48 Bulbash3r: /dpidor
+49 Bulbash3r: /pidor
+50 Bulbash3r: /pidor
+0 Bot is ready
+0 Bulbash3r: /pidor
+0 Bot is ready
+0 Bot is ready
+0 Bulbash3r: /hello
+1 Bot: Хаюшки, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: /start
+3 Bot: Привет, Antoś!
+Тыкай /help чтобы начать
+4 Bulbash3r: /random
+5 Bulbash3r: W e
+6 Bulbash3r: 1 r
+7 Bulbash3r: 666
+8 Bot: Ваше случайное число - 458
+9 Bulbash3r: /random
+10 Bulbash3r: 4
+11 Bot: Ваше случайное число - 0
+12 Bulbash3r: /quote
+13 Bot: кодь под грушу (с) Евгений Степанцов
+14 Bulbash3r: /quote
+15 Bot: книги бесполезная трата времени (с) Евгений Степанцов
+16 Bulbash3r: /quote
+17 Bot: го дискуссию (с) Евгений Степанцов
+18 Bulbash3r: /quote
+19 Bot: В каждом есть дерьмо. Его ещё принято называть личностью или персональностью (с) Евгений Степанцов
+20 Bulbash3r: /quote
+21 Bot: Интересно ты свои комплексы скрываешь, Юрэвич (с) Евгений Степанцов
+22 Bulbash3r: /sticker
+23 Стикер отправлен
+24 Bulbash3r: /sticker
+25 Стикер отправлен
+26 Bulbash3r: /sticker
+27 Стикер отправлен
+28 Bulbash3r: /sticker
+29 Стикер отправлен
+30 Bulbash3r: /sticker
+31 Стикер отправлен
+32 Bulbash3r: /sticker
+33 Стикер отправлен
+34 Bulbash3r: /flip
+35 Орёл
+36 Bulbash3r: /flip
+37 Орёл
+38 Bulbash3r: /flip
+39 Решка
+40 Bulbash3r: /flip
+41 Орёл
+42 Bulbash3r: /flip
+43 Орёл
+44 Bulbash3r: /flip
+45 Орёл
+46 Bulbash3r: /flip
+47 Решка
+48 Bulbash3r: /flip
+49 Решка
+50 Bulbash3r: /flip
+51 Решка
+52 Bulbash3r: /flip
+53 Решка
+54 Bulbash3r: /memes
+55 Мем отправлен
+56 Bulbash3r: /help
+57 Помощь выведена
+0 Bot is ready
+0 Bulbash3r: /start
+1 Bot: Дороу, Antoś!
+Тыкай /help чтобы начать
+2 Bulbash3r: /help
+3 Помощь выведена
+4 Bulbash3r: /memes
+5 Мем отправлен
+6 Bulbash3r: /memes
+7 Мем отправлен
+0 Bot is ready
+0 Bot is ready
+0 lawn_in_law: /start
+1 Bot: Хаюшки, Vitaliy!
+Тыкай /help чтобы начать
+2 lawn_in_law: /help
+3 Помощь выведена
+0 lawn_in_law: /music
+4 lawn_in_law: /music
+5 lawn_in_law: /random
+6 lawn_in_law: Минская
+7 lawn_in_law: Несвижская
+1 lawn_in_law: /coin
+8 lawn_in_law: /coin
+2 Орёл
+9 lawn_in_law: /quote
+0 Bot is ready
+0 lawn_in_law: /quote
+1 Bot: глупый вопрос (с) Евгений Степанцов
+2 lawn_in_law: /quote
+3 Bot: го дискуссию (с) Евгений Степанцов
+4 lawn_in_law: /quote
+5 Bot: сидел кто на тарифах семья лайф (с) Евгений Степанцов
+6 lawn_in_law: /quote
+7 Bot: но в мыслях он мне постоянно ебало начищает (с) Евгений Степанцов
+8 lawn_in_law: /quote
+9 Bot: Не сказал бы что умение прогать == знанию С (с) Евгений Степанцов
+10 lawn_in_law: /memes
+11 Мем отправлен
+12 lawn_in_law: /memes
+13 Мем отправлен
+14 lawn_in_law: /memes
+15 Мем отправлен
+16 lawn_in_law: /memes
+17 Мем отправлен
+18 lawn_in_law: /sticker
+19 Стикер отправлен
+20 lawn_in_law: /sticker
+21 Стикер отправлен
+22 lawn_in_law: /sticker
+23 Стикер отправлен
+24 lawn_in_law: /sticker
+25 Стикер отправлен
+26 lawn_in_law: /sticker
+27 Стикер отправлен
+28 lawn_in_law: /sticker
+29 Стикер отправлен
+30 lawn_in_law: /sticker
+31 Стикер отправлен
+32 lawn_in_law: /sticker
+33 Стикер отправлен
+34 lawn_in_law: /sticker
+35 Стикер отправлен
+36 lawn_in_law: /sticker
+37 Стикер отправлен
+38 lawn_in_law: /sticker
+39 Стикер отправлен
+40 lawn_in_law: /sticker
+41 Стикер отправлен
+42 lawn_in_law: /sticker
+43 Стикер отправлен
+44 lawn_in_law: /sticker
+45 Стикер отправлен
+0 Bot is ready
+0 Bot is ready
+0 Bulbash3r: null
+1 Bulbash3r: null
+2 Bulbash3r: null
+3 Bulbash3r: null
+4 Bulbash3r: null
+5 Bulbash3r: null
+6 Bulbash3r: null
+0 Bot is ready
+0 Bot is ready
+0 Bulbash3r: hey
+1 Ошибка ввода
+2 Bulbash3r: /stickerGlecevich
+3 Bulbash3r: /stickerGlecevich
+4 Bulbash3r: /stickerGlecevich
+5 Bulbash3r: /stickerGlecevich
+6 Bulbash3r: /stickerGlecevich
+7 Bulbash3r: /stickerGlecevich
+8 Bulbash3r: /stickerGlecevich
+9 Bulbash3r: /random
+0 Bot is ready
+0 Bot is ready
+0 Bulbash3r: /random
+1 Bulbash3r: 150
+2 Bot: Ваше случайное число - 67
+3 Bulbash3r: /flip
+4 Решка
+5 Bulbash3r: /flip
+6 Орёл
+7 Bulbash3r: /flip
+8 Решка
+9 Bulbash3r: /music
+10 Bulbash3r: /quote
+11 Bot: (заткните АНТОСЯ мне рил плевать) (с) Евгений Степанцов
+12 Bulbash3r: /quote
+13 Bot: Не знаю, ни одного по-настоящему хорошего человека (с) Евгений Степанцов
+14 Bulbash3r: /quote
+15 Bot: я Злата брат (с) Евгений Степанцов
+16 Bulbash3r: /quote
+17 Bot: умирать совершеннее чем жить (с) Евгений Степанцов
+18 Bulbash3r: /quote
+19 Bot: Console.log('как дела'); (с) Евгений Степанцов
+20 Bulbash3r: /quote
+21 Bot: харе стебаться (с) Евгений Степанцов
+22 Bulbash3r: /quote
+23 Bot: Хули он такой агрессивенвй (с) Евгений Степанцов
+24 Bulbash3r: /quote
+25 Bot: я понял процентов 60 слов (с) Евгений Степанцов
+26 Bulbash3r: /quote
+27 Bot: вроде все логично (с) Евгений Степанцов
+28 Bulbash3r: /quote
+29 Bot: ясненько, людей мы не уважаем (с) Евгений Степанцов
+30 Bulbash3r: /quote
+31 Bot: скоро должно отпустить (с) Евгений Степанцов
+32 Bulbash3r: /quote
+33 Bot: но в мыслях он мне постоянно ебало начищает (с) Евгений Степанцов
+34 Bulbash3r: /quote
+35 Bot: бляяяяяяяяяяять (с) Евгений Степанцов
+36 Bulbash3r: /quote
+37 Bot: я Злата брат (с) Евгений Степанцов
+38 Bulbash3r: /sticker
+39 Стикер отправлен
