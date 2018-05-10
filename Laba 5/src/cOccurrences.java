@@ -1,8 +1,12 @@
+import java.util.Scanner;
+import Scala_objects.Occurrences;
+
 public class cOccurrences {
     public static void main(String[] args) {
         final String bigWord = new BigWord().getWord();
 
-        char c = 'A';
+        System.out.print("Введите символ для поиска: ");
+        char c = new Scanner(System.in).nextLine().charAt(0);
         int acc = 0;
         System.out.println("Длина слова: " + bigWord.length() + " символов");
         System.out.println("Символ для поиска: " + c);
