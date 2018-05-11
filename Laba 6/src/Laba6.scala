@@ -1,5 +1,7 @@
+import scala.annotation.tailrec
+
 /**
-  * Найти среднее арифметическое элемента списка
+  * Найти среднее арифметическое элементов списка
   * Подсчитать длину списка
   * Отфильтровать последовательность, оставив только элементы типа String.
   */
@@ -7,10 +9,21 @@
 object Laba6 extends App {
 
   def Average (list: List[Int]): Double = {
-    var sum = 0
+
+    /*var sum = 0
     for (i <- list.indices) //for (i <- to list.length - 1)
       sum +=list(i)
     sum/list.length
+    */
+
+    @tailrec
+    def sum(list: List[Int], acc: Int): Int = {
+      if (list.nonEmpty) {
+        sum (list.tail, acc+list.head)
+      }
+      else acc
+    }
+    sum(list, 0)/list.length
   }
 
   def Length(list: List[Int]): Int = {
