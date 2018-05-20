@@ -15,5 +15,4 @@ object objectCalcS extends App {
   println (calcS(1, "30s"))
   println (calcS(5, "180m"))
   println (calcS(20, "2h"))
-
 }

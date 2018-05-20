@@ -136,7 +136,7 @@ public class Main extends Application {
         }));
         Bcode.setOnMouseClicked((new EventHandler<MouseEvent>() {
             public void handle(MouseEvent event) {
-                console.setText (proger.coding());
+                console.setText(proger.coding());
             }
         }));
         TfoodName.setOnKeyPressed((new EventHandler<KeyEvent>() {

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Telegram Bot:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Telegram_Bot_jar</output-path>
-    <root id="archive" name="Telegram Bot.jar">
-      <element id="module-output" name="Telegram Bot" />
-    </root>
-  </artifact>
-</component>

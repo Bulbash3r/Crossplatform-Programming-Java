@@ -1,6 +1,6 @@
 /**
   * Реализовать классы Rectangle и Parallelepiped. Реализовать функцию, производящую
-  * расчёт площади поверхности фигуры. Кассы должны иметь метод unapply, предоставляющий
+  * расчёт площади поверхности фигуры. Классы должны иметь метод unapply, предоставляющий
   * размеры сторон фигуры
   */
 abstract class Figure (var x: Int, var y: Int) {
@@ -10,8 +10,8 @@ abstract class Figure (var x: Int, var y: Int) {
     */
   def area: Int = {
     this match {
-      case Rectangle (x, y) => x * y
-      case Parallelepiped (x, y, z) => 2 * (x*y + x*z + y*z)
+      case Rectangle (_, _) => x * y
+      case Parallelepiped (_, _, z) => 2 * (x*y + x*z + y*z)
     }
   }
 
@@ -20,8 +20,8 @@ abstract class Figure (var x: Int, var y: Int) {
     */
   def volume: Int = {
     this match {
-      case Rectangle (x, y) => 0
-      case Parallelepiped (x, y, z) => x * y * z
+      case Rectangle (_, _) => 0
+      case Parallelepiped (_, _, z) => x * y * z
     }
   }
 
@@ -30,8 +30,8 @@ abstract class Figure (var x: Int, var y: Int) {
     */
   def unapply: Any = {
     this match {
-      case Rectangle (x, y) => (x, y)
-      case Parallelepiped (x, y, z) => (x, y, z)
+      case Rectangle (_, _) => (x, y)
+      case Parallelepiped (_, _, z) => (x, y, z)
     }
   }
 
