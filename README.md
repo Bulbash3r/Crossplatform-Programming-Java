@@ -16,8 +16,8 @@
 
 ## Программное обеспечение
 При написании лаб использовались следующие IDE:
-* IntelliJ IDEA 2018.1
-* Eclipse 4.7
+* [IntelliJ IDEA 2018.1](https://www.jetbrains.com/idea/ "Лучшая IDE, которая будет в твоей жизни")
+* [Eclipse 4.7](https://www.eclipse.org/downloads/)
 
 ## Условия лабораторных работ
 ### [Лабораторная работа №1](https://github.com/Bulbash3r/Java-Labs/tree/master/Laba%201)
