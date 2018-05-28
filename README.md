@@ -16,8 +16,11 @@
 
 ## Программное обеспечение
 При написании лаб использовались следующие IDE:
-* [IntelliJ IDEA 2018.1](https://www.jetbrains.com/idea/ "Лучшая IDE, которая будет в твоей жизни")
+* [IntelliJ IDEA 2018.1](https://www.jetbrains.com/idea/ "Лучшая IDE, которая будет в твоей жизни")  
 * [Eclipse 4.7](https://www.eclipse.org/downloads/)
+Версия [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html): 1.8.0
+Версия [Scala](https://www.scala-lang.org): 2.12.6
+
 
 ## Условия лабораторных работ
 ### [Лабораторная работа №1](https://github.com/Bulbash3r/Java-Labs/tree/master/Laba%201)
