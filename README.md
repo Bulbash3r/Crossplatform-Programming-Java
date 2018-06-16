@@ -27,6 +27,7 @@
 ### [Лабораторная работа №1](https://github.com/Bulbash3r/Java-Labs/tree/master/Laba%201)
 **Библиотека графического интерфейса:** Swing  
 *Вариант 16:* Мини-игра по угадыванию пользователем случайно загаданного компьютером числа.
+![GUI 1-й лабы](https://pp.userapi.com/c844416/v844416490/80ac6/u8H0yf0KIZk.jpg)
 
 ### [Лабораторная работа №2](https://github.com/Bulbash3r/Java-Labs/tree/master/Laba%202)
 **Библиотека графического интерфейса:** JavaFX  
