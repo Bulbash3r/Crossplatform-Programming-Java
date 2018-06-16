@@ -181,8 +181,8 @@ public class Main extends Application {
                 collected.setText("Собрано урожая: "+ farmer.getVegetSize());
             }
         }));
-        Scene scene = new Scene (root, 450, 250);
-        primaryStage.setTitle("Hello World");
+        Scene scene = new Scene (root);
+        primaryStage.setTitle("Laba 3");
         primaryStage.setScene(scene);
         primaryStage.centerOnScreen();
         primaryStage.show();

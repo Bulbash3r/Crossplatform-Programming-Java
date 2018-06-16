@@ -121,7 +121,7 @@ public class Main extends Application {
             }
         }));
         Scene scene = new Scene (root, 300, 250);
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Laba 2");
         primaryStage.setScene(scene);
         primaryStage.centerOnScreen();
         primaryStage.show();

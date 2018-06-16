@@ -34,7 +34,6 @@ class GameLogic {
         userNumber=0;
         if (fieldString.isEmpty()) {
             userNumber=-2;
-            return;
         }
         else userNumber = Integer.parseInt (fieldString);
     }
@@ -42,7 +41,9 @@ class GameLogic {
     /**
      * This method set the game in state NON_STARTED.
      */
-    public void setNegativeComputerNumber() {computerNumber = -1;}
+    public void setNegativeComputerNumber() {
+        computerNumber = -1;
+    }
 
     /**
      * This method check relations of user number and random number.
@@ -60,28 +61,38 @@ class GameLogic {
     /**
      * This method sets counter on zero
      */
-    public void setCounterToZero() {counter = 0;}
+    public void setCounterToZero() {
+        counter = 0;
+    }
 
     /**
      * This method increments counter
      */
-    public void incCounter() {counter++;}
+    public void incCounter() {
+        counter++;
+    }
 
     /**
      * This method returns count of try
      * @return Count of try
      */
-    public int getCounter() {return counter;}
+    public int getCounter() {
+        return counter;
+    }
 
     /**
      * This method return value of random number.
      * @return int Value of random number.
      */
-    public int getComputerNumber(){return computerNumber;}
+    public int getComputerNumber() {
+        return computerNumber;
+    }
 
     /**
      * This method return value of user number.
      * @return int Value of user number
      */
-    public int getUserNumber(){return userNumber;}
+    public int getUserNumber() {
+        return userNumber;
+    }
 }

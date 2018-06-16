@@ -101,12 +101,6 @@ public class MyGUI {
         JPanel panel = new JPanel();
         panel.setLayout(null);
 
-        /*JLabel labelbsuir = new JLabel();
-        labelbsuir.setText("БГУИР - знания и стиль жизнь!");
-
-        labelbsuir.setBounds(20,15, 200, 20);
-        panel.add(labelbsuir);*/
-
         textField.setBounds(20,15,150,20);
         panel.add (textField);
 
